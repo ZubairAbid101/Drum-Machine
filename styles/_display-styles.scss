@@ -1,0 +1,37 @@
+#display-wrapper{
+    padding: 20px;
+}
+
+#display{
+    min-height: 60px;
+    margin-top: 80px;
+    background-color: gray;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#volume-controls-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#volume-meter{
+    width: 90%;
+}
+
+#volume-number{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
